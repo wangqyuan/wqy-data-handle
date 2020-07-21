@@ -1,0 +1,1 @@
+const list = this.state.list.filter(pane => pane.key !== targetKey);

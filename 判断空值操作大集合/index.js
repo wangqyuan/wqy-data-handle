@@ -36,3 +36,8 @@ if(!obj){
 if(JSON.stringify(obj)==='{}'){
   console.log("obj={}可以用JSON.stringify(obj)==='{}'来判断");
 }
+
+if(!!obj){
+  console.log("obj如果是{}则弹出此消息");
+  console.log("obj={}可以用!!为true来判断空");
+}
