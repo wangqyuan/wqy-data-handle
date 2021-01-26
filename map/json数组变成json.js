@@ -1,11 +1,11 @@
 var arr = [
   {
-    name:'wqy',
-    value:'王乾元',
+    name: 'wqy',
+    value: '王乾元',
   },
   {
-    name:'ygw',
-    value:'严光旺',
+    name: 'ygw',
+    value: '严光旺',
   },
 ]
 
@@ -27,9 +27,9 @@ console.log(arr);
 
 
 
-var b={
-  'wqy':'王乾元',
-  'ygw':'严光旺'
+var b = {
+  'wqy': '王乾元',
+  'ygw': '严光旺'
 }
 
 /*
@@ -44,11 +44,11 @@ var b={
   },
 ]
 * */
-let a=[]
-Object.entries(b).map(data=>{
+let a = []
+Object.entries(b).map(data => {
   a.push({
-    key:data[0],
-    value:data[1],
+    key: data[0],
+    value: data[1],
   })
 })
 console.log(a);
